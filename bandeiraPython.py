@@ -13,7 +13,11 @@ acircle=Circle(Point(250,200), 100)
 acircle.setFill("blue")
 acircle.draw(win)
 
-
+for x in range(160,350):
+    y=0.0007868937*(x**2)+(-0.19290505676*x)+169.83498452
+    ponto=Point(x,y)
+    ponto.setOutline("white")
+    ponto.draw(win)
 
 
 
