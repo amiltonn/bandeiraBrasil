@@ -19,6 +19,13 @@ for x in range(160,350):
     ponto.setOutline("white")
     ponto.draw(win)
 
+for x in range(155,349):
+    y=0.00060461956*(x**2)+(-0.06672554347*x)+173.05546875
+    ponto=Point(x,y)
+    ponto.setOutline("white")
+    ponto.draw(win)
+
+
 
 
 
