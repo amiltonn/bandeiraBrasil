@@ -4,8 +4,6 @@ aRectengle=Rectangle(Point(0,0),Point(500,400))
 aRectengle.setFill("green")
 aRectengle.draw(win)
 
-
-
 apolygon=Polygon(Point(50,200) ,Point(250,50) , Point(250,50) , Point(450,200), Point(250,350))
 apolygon.setFill("yellow")
 apolygon.draw(win)
@@ -21,6 +19,62 @@ for z in range(0,20):
         ponto.setOutline("white")
         ponto.draw(win)
     w=w+0.3
+
+mensagem=Text(Point(165,170), 'O')
+mensagem.setOutline("green")
+mensagem.draw(win)
+mensagem=Text(Point(175,171), 'R')
+mensagem.setOutline("green")
+mensagem.draw(win)
+mensagem=Text(Point(186,172), 'D')
+mensagem.setOutline("green")
+mensagem.draw(win)
+mensagem=Text(Point(197,173), 'E')
+mensagem.setOutline("green")
+mensagem.draw(win)
+mensagem=Text(Point(208,174), ' M')
+mensagem.setOutline("green")
+mensagem.draw(win)
+
+
+mensagem=Text(Point(235,180), 'E')
+mensagem.setOutline("green")
+mensagem.draw(win)
+
+mensagem=Text(Point(255,183), 'P')
+mensagem.setOutline("green")
+mensagem.draw(win)
+
+mensagem=Text(Point(265,185), 'R')
+mensagem.setOutline("green")
+mensagem.draw(win)
+
+mensagem=Text(Point(275,188), 'O')
+mensagem.setOutline("green")
+mensagem.draw(win)
+mensagem=Text(Point(285,191), 'G')
+mensagem.setOutline("green")
+mensagem.draw(win)
+mensagem=Text(Point(295,194), 'R')
+mensagem.setOutline("green")
+mensagem.draw(win)
+mensagem=Text(Point(305,197), 'E')
+mensagem.setOutline("green")
+mensagem.draw(win)
+mensagem=Text(Point(315,200), 'S')
+mensagem.setOutline("green")
+mensagem.draw(win)
+mensagem=Text(Point(325,203), 'S')
+mensagem.setOutline("green")
+mensagem.draw(win)
+mensagem=Text(Point(335,207), 'O')
+mensagem.setOutline("green")
+mensagem.draw(win)
+
+
+
+
+
 
 
 
