@@ -83,7 +83,11 @@ bpolygon.setFill("white")
 bpolygon.draw(win)
 bpolygon.setOutline('white')
 
+bpolygon=Polygon(Point(250,250 ), Point(243,259),Point(257, 253),Point(241, 253), Point(255, 259))
 
+bpolygon.setFill("white")
+bpolygon.draw(win)
+bpolygon.setOutline('white')
 
 
 
