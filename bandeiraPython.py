@@ -71,7 +71,17 @@ mensagem=Text(Point(335,207), 'O')
 mensagem.setOutline("green")
 mensagem.draw(win)
 
+bpolygon=Polygon(Point(230,230 ), Point(223,239),Point(237, 233),Point(222, 233), Point(235, 239))
 
+bpolygon.setFill("white")
+bpolygon.draw(win)
+bpolygon.setOutline('white')
+
+bpolygon=Polygon(Point(240,240 ), Point(233,249),Point(247, 243),Point(231, 243), Point(245, 249))
+
+bpolygon.setFill("white")
+bpolygon.draw(win)
+bpolygon.setOutline('white')
 
 
 
